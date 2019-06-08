@@ -26,6 +26,7 @@ class RedditCard extends Component {
   handleExpandClick = () => {
     this.setState(state => ({ expanded: !state.expanded }));
   };
+  // Yes... the function above does nothing... its there if you want to implement it :)
 
   render() {
     const { classes, post } = this.props;

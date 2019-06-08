@@ -13,7 +13,7 @@ const Home = () => {
     async function fetchAll() {
       const result = await axios("https://www.reddit.com/r/all.json");
 
-      // This is work guys :)
+      // You know why this is important ;)
       result.data.data.children = result.data.data.children.filter(
         ele => !ele.data.over_18
       );
