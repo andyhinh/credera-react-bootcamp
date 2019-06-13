@@ -21,13 +21,6 @@ const styles = () => ({
 });
 
 class RedditCard extends Component {
-  state = { expanded: false };
-
-  handleExpandClick = () => {
-    this.setState(state => ({ expanded: !state.expanded }));
-  };
-  // Yes... the function above does nothing... its there if you want to implement it :)
-
   render() {
     const { classes, post } = this.props;
 
