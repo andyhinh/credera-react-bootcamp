@@ -4,16 +4,16 @@ Final two days of Credera's Front-end bootcamp
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Objectives
-This project will reflect both solo assignment and pair programming excercise for the last two days. You are allowed to get a headstart and complete the next objectives prior to being assigned.
+This project will reflect both solo assignment and pair programming excercise for the last two days. You are allowed to get a headstart and complete the next objectives prior to it being assigned or add more functionalities as you like for more brownie points.
 
 Order of Completion:
 1) (Solo, July 18th) Turning the page into a multi-page single page application with a form that console logs the input on submission 
 2) (Pair, July 18th) Adding complexity to the form (i.e. Login/Create Account form)
 3) (Solo, July 19th) Refactor the application to allow searches for other subreddits
-4) (Pair, July 19th) Implement an API call that can persist, update, and retrieve data (Redux/Hooks)
+4) (Pair, July 19th) Implement an Reddit Subreddit API call that can persist, update, and retrieve data (Hooks/Redux)
 
 ## Additional Note(s)
-The components were created in different ways to demonstrate different ways of creating components (Class vs Functional and State vs Stateless). React is making Stateless and Functional its preferred component creation; however, Class and State will be relevant because of higher-order components.
+The components were created in different ways to demonstrate different ways of creating components (Class/State vs Functional/Stateless). React is making stateless its preferred component creation; however, classes will be relevant for lifecycles.
 
 ## Available Scripts
 
