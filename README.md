@@ -9,8 +9,8 @@ This project will reflect both solo assignment and pair programming excercise fo
 Order of Completion:
 1) (Solo, July 18th) Turning the page into a multi-page single page application with a form that console logs the input on submission 
 2) (Pair, July 18th) Adding complexity to the form (i.e. Login/Create Account form)
-3) (Solo, July 19th) Refactor the application to allow searches for other subreddits
-4) (Pair, July 19th) Implement an Reddit Subreddit API call that can persist, update, invalidate, and retrieve data if needed (Hooks/Redux)
+3) (Solo, July 19th) Refactor the application to allow searches for other subreddits (Hooks/Redux)
+4) (Pair, July 19th) Implement an Reddit Subreddit API call that can persist, update, invalidate, and retrieve data if needed 
 
 ## Additional Note(s)
 The components were created in different ways to demonstrate different ways of creating components (Class/State vs Functional/Stateless). React is making stateless its preferred component creation; however, classes will be relevant for lifecycles.
