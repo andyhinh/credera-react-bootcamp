@@ -13,19 +13,19 @@ Order of Completion:
 4) (Pair, July 19th) Implement an API call that can persist, update, and retrieve data (Redux/Hooks)
 
 More details on each task:
-#####1) As a user, I would like to be able to navigate to different pages on the application. (React-router)
+##### 1) As a user, I would like to be able to navigate to different pages on the application. (React-router)
 
 ![Routing to multiple pages](demo/react-router.gif)
 
-#####2) As a user, I would like to create an account on the application.
+##### 2) As a user, I would like to create an account on the application.
 
 ![Creating an account](demo/form.gif)
 
-#####3) As a user, I want to be able to search for other subreddits.
+##### 3) As a user, I want to be able to search for other subreddits.
 
 ![Searching other subreddits](demo/search.gif)
 
-#####4) As a user, I would like to be able to grab the latest posts without having to refresh the page
+##### 4) As a user, I would like to be able to grab the latest posts without having to refresh the page
 
 ![Invalidating data to fetch new](demo/invalidate.gif)
 
