@@ -14,6 +14,8 @@ import ListItemText from "@material-ui/core/ListItemText";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 
+import { useStateValue } from "../providers/Context";
+
 import { Home, Menu, Search, AccountCircle } from "@material-ui/icons";
 
 const styles = theme => ({
@@ -87,6 +89,8 @@ const Navigation = ({ classes }) => {
     search: ""
   });
 
+  const [search, dispatch] = useStateValue();
+
   const toggleDrawer = (side, open) => () => {
     setState({ ...state, [side]: open });
   };
@@ -154,7 +158,12 @@ const Navigation = ({ classes }) => {
               onKeyPress={event => {
                 if (event.key === "Enter") {
                   event.preventDefault();
+                  dispatch({
+                    type: "search",
+                    search: state.search
+                  });
                   event.target.value = "";
+                  setState({ ...state, search: ""});
                 }
               }}
             />
