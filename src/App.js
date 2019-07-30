@@ -2,13 +2,15 @@ import React from "react";
 import Navigation from "./components/Navigation";
 import Home from "./pages/Home";
 
+import { StateProvider } from "./providers/Context";
+
 import "./App.css";
 
 const App = () => (
-  <div>
+  <StateProvider>
     <Navigation />
     <Home />
-  </div>
+  </StateProvider>
 );
 
 export default App;
